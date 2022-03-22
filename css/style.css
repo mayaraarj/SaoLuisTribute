@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Oswald:wght@600;700&display=swap');
+/*font-family: 'Fredoka', sans-serif; 
+font-family: 'Oswald', sans-serif
+*/
+
+/*Dentro dele estará um título com o nome da sua cidade alinhado à margem esquerda */
+
+.cabecalho {
+    display: flex;
+    /* dentro do cabeçalho que tem o flex, colocar justify content para gerar o espaçamento de navbar nos itens */
+    justify-content: space-between;
+
+    padding: 20px;
+    background: #5aa6e0;
+}
+
+.logo {
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    text-align: left;
+    align-content: center;
+    color: #e3f0fa;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-radius: 36px;
+
+    border: solid 2px;
+    /* border-color é só para a cor da borda, utilizamos border-style ou só border para fazer ela aparecer */
+}
+
+.navigation-bar {
+ display: flex;
+ justify-content: flex-end;
+ background-color: #263f63;
+ overflow: hidden;
+}
+
+.navigation-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+}
+
+
+.corpo-do-site {
+    background-image: url(/img/background-azulejo.jpg);
+}
